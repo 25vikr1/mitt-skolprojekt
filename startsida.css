@@ -1,0 +1,107 @@
+.omslagsbild{
+    margin-bottom: 0px;
+    display: block;
+    width: 800px;
+    margin-top: 15px;
+}
+
+@font-face{
+    src: url(fonts/BBHBartle-Regular.ttf);
+    font-family: BBHBartle;
+}
+
+body{
+    background-color: rgb(11, 32, 15);
+    margin: px;
+}
+div p {
+  margin: 0;
+}
+#Utanför{
+    width: 12000px;
+    background-color: darkolivegreen;
+position: relative;
+}
+
+#innanför{
+    position: absolute;
+}
+
+.Rubrikbox{
+    border:0px solid;
+    border-color: rgb(50, 55, 42);
+    background-color: rgb(48, 46, 44);
+    width: 800px;
+    height: 200px;
+    font-size: 4em;
+    text-align:center;
+    margin-top: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+    cursor: url(tennisracket.png);
+}
+#underrubrik-startsida{
+    font-size: x-small;
+}
+
+.Underrubrik{
+    font-size: 28px;
+    color: #f2f2f2;
+    margin-top: 5px;
+    display: block;
+}
+
+#Footer{
+    background-color: rgba(16, 16, 16, 0.742);
+    color: aliceblue;
+    font-size: x-large;
+}
+
+#branding{
+    font-style:normal;
+    color: rgb(255, 255, 255);
+    font-family:BBHBartle;
+    border-style: outset;
+    border-color: chocolate;
+    border-radius: 15px;
+    margin-right:200px;
+    background-color: chocolate;
+}
+
+#Reklamvideo{
+    position: absolute; right:20px;
+    top: 200px;
+    margin-top: 640px;
+}
+
+#Reklambild{
+    position: absolute; right:20px;
+    top: 200px;
+    margin-top: 1340px;
+}
+
+
+.Navigationsbar {
+  background-color: chocolate;
+  overflow: hidden;
+}
+
+.Navigationsbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.Navigationsbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.Navigationsbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
