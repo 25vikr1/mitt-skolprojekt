@@ -3,8 +3,11 @@
     font-family: BBHBartle;
 }
 
+/* Här har jag lagt in kod som gör att hemsidan kan byta mellan
+mörkt och ljust läge*/
+
 .mörktlägeknapp{
-    background-color: whitesmoke;
+    background-color: rgb(228, 154, 80);
     color: rgb(0, 0, 0);
 }
 
@@ -19,6 +22,8 @@ body{
     background-color: rgb(11, 32, 15);
     margin: 20px;
 }
+/*Här har jag formaterat hur all text ska se ut och vilken färg den ska vara*/
+
 h1{
     color: aliceblue;
     margin-right: 600px;
@@ -49,6 +54,7 @@ p{
     margin-bottom: 10px;
     margin-top: 30px;
 }
+/*Det här är desingen för min logotyop (Tenniskanalen) längst upp på hemsidan*/
 #branding{
     font-style:normal;
     color: rgb(255, 255, 255);
@@ -60,6 +66,7 @@ p{
     margin-right:200px;
 }
 
+/*Det hät här är designen för min bylinebild*/
 span{
     background-color: rgb(178, 224, 200);
     display: inline-block;
@@ -68,6 +75,7 @@ height: 50px;
     border-radius: 10px;
 }
 
+/*Det här är desingen för hur datumet för artikelns publicering ska se ut.*/
 #Datum{
     color: rgb(117, 113, 109);
     margin-top: 0px;
@@ -78,6 +86,7 @@ height: 50px;
     margin-bottom: 2px;
 }
 
+/*Positionering av reklamen på hemsidan*/
 #Reklamvideo{
     position: absolute; right:20px;
     top: 250px;
@@ -92,6 +101,7 @@ height: 50px;
     padding-inline: inherit;
 }
 
+/*Design för min navigationsbar*/
 .logotyp:visited{
 text-decoration: none;
     
@@ -124,6 +134,7 @@ a:visited{
   color: white;
 }
 
+/*Bilden på toppen av min artikel*/
 #omslagsbild{
     width: 600px;
 }
