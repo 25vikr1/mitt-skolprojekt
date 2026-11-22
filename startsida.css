@@ -39,7 +39,6 @@ position: relative;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: aliceblue;
     text-decoration: none;
-    cursor: url(tennisracket.png);
 }
 #underrubrik-startsida{
     font-size: x-small;
@@ -104,4 +103,9 @@ position: relative;
 .Navigationsbar a.active {
   background-color: #04AA6D;
   color: white;
+}
+
+.mörktlägeknapp{
+    background-color: whitesmoke;
+    color: whitesmoke;
 }

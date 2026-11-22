@@ -5,6 +5,9 @@
     <link rel="icon" type="img/png" href="tennisboll.png">
     <link rel="stylesheet" href="startsida.css">
     </head>
+
+    <!-- Jag är osäker på om man borde ha en alternativtext för sin favicon?
+     Därför har jag ingen alt-text för min.-->
     
     <!-- Jag har försökt bygga en nyhetssajt för tennis. -->
     <body>
@@ -22,8 +25,13 @@
   <a href="Kontakt.html">Kontakt</a>
   <a href="Casper.html">Senaste nytt</a>
   <a href="omoss.html">Om Tennisens Allehanda</a>
+  <button alt="Växla mellan ljust och mörkt läge" id="mörktlägeknapp"> Ljust/Mörkt läge</button>
 </div>
 <br>
+
+<!-- Jag la till en navigationsbar ovanför. Jag försökte få knappen att ha samma dimensioner som
+ resten av hyperlinkarna men jag lyckades inte få till det, så nu ser det inte så snyggt
+ ut som jag hade velat. Jag hade ändrat på det om jag hade haft mer tid.-->
        
        <a href="https://www.citygross.se/matvaror/veckans-erbjudande?utm_medium=display&utm_source=schibsted&utm_campaign=aktivering&utm_content=panorama_vara_pris_v47"> <img src="Skärmbild 2026-11-19 113817.png" width=800 alt="City Gross - reklam"></a>
 
@@ -33,13 +41,15 @@
         </a>
         <a id=Rubrik href="Casper.html">
            <div class="Rubrikbox"> Casper Ruud utslagen ur<br>Stockholm Open
-        <span class="Underrubrik">&#10003;BUdskapet till fansen på Instagram &#10003;Tuffa åren efter skadan</span>
+        <span class="Underrubrik">&#10003;Budskapet till fansen på Instagram &#10003;Tuffa åren efter skadan</span>
     </div>
         </a>
+        <!--Jag lärde mig hur man lägger till specialtecken, som bockarna där uppe,
+        markerade i röd text-->
         
 
         <a href="Legendar.html">
-        <img class=omslagsbild src="Legendar.png">
+        <img class=omslagsbild src="Legendar.png" alt="Legendaren tar över Davis Cup-laget">
         </a>
         <a id=Rubrik href="Legendar.html">
            <div class="Rubrikbox"> Legendaren tar över Davis Cup-laget: ”Det känns roligt” 
@@ -48,11 +58,13 @@
         </a>
 <br><br>
        
+<!-- Här lade jag till en reklamvideo. Ibland lyckas jag få den att spela men ibland gör den inte det.
+ Jag vet inte hur jag ska få den till att funka i alla lägen.-->
 <a href="https://www.sova.se/kampanjer/?utm_medium=banner&utm_source=programmatic&utm_campaign=blackweek&utm_content=underochslut&dclid=CPbmhfKjlJgDFW0SAwUdmAw6fw&gad_source=7&gclid=EAIaIQobChMI96zH7KCUmAMVS-lPCB34MxeyEAEYASAAEgJ2mfD_BwE&gad_campaignid=24420450667"><video src="Sovreklam.mp4" autoplay loop width="800"></video></a>
 
         
         <a href="finansprofiler.html">
-        <img class=omslagsbild src="b2857cfd10a7434fa6bc4ef1ccc8aff8dfd42be2cbb8a8cdca07552ffe7e7d61.avif">
+        <img class=omslagsbild src="b2857cfd10a7434fa6bc4ef1ccc8aff8dfd42be2cbb8a8cdca07552ffe7e7d61.avif" alt="Qinwen Zheng">
         </a>
         <a id=Rubrik href="finansprofiler.html">
            <div class="Rubrikbox"> Ny jättevändning av Zheng i <br>US Open: "Det är inte bara tur"
@@ -70,7 +82,7 @@
 </a>
 <a href="comviq.se/mobiler/samsung-galaxy-s26/student?utm_source=dv360&utm_medium=display&utm_campaign=hw_pp-android&utm_content=blackweek-galaxy-26-student&utm_marketing_tactic=evaluate&dclid=CO6eybLLlJgDFfPAOwIdRIYpIA&gad_source=7&gclid=EAIaIQobChMIjZWz4MqUmAMVNcwJAh03aAKkEAEYASAAEgKsAfD_BwE&gad_campaignid=24413774282">
 <div id="Reklambild">
-<img src="Skärmbild 2026-11-19 184421.png" width="300">
+<img src="Skärmbild 2026-11-19 184421.png" width="300" alt="Reklambild">
 </div>  
 </a>
 <hr>
@@ -82,8 +94,10 @@
     <br>
     <b>Chefredaktör: Viktor Kristensson</b>
     <br>
-    <small>Skoljprojekt i webbdesign för Södertorns Högskola</small>
+    <small>Skolprojekt i webbdesign för Södertorns Högskola</small>
+    <!--Jag använde internal CSS här eftersom jag tyckte att det kändes smidigare.-->
 </footer>
 </div>
+<script src="script.js"></script>
     </body>
 </html>

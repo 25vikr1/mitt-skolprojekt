@@ -3,6 +3,18 @@
     font-family: BBHBartle;
 }
 
+.mörktlägeknapp{
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+}
+
+body.mörktlägeknapp p,
+body.mörktlägeknapp h1,
+body.mörktlägeknapp h2,
+body.mörktlägeknapp h3 {
+    color: black;
+} 
+
 body{
     background-color: rgb(11, 32, 15);
     margin: 20px;
@@ -13,6 +25,7 @@ h1{
 }
 h2{
     color: aliceblue;
+    font-size: 2rem;
 }
 h3{
     color: aliceblue;
@@ -109,4 +122,8 @@ a:visited{
 .Navigationsbar a.active {
   background-color: #04AA6D;
   color: white;
+}
+
+#omslagsbild{
+    width: 600px;
 }
